@@ -1,6 +1,6 @@
-# ccr — Claude Code R
+# claudecoder — Claude Code R
 
-`ccr` is a lightweight helper that scaffolds a new R project ready for use
+`claudecoder` is a lightweight helper that scaffolds a new R project ready for use
 with **Claude Code Web**. It creates a clean project skeleton, drops in the
 right `CLAUDE.md` instruction files, initialises git and pushes the
 repository to GitHub — and it ships helpers to anonymise your real data
@@ -16,7 +16,7 @@ remotes::install_github("ogdtg/claudecoder")
 ## Create a project
 
 ```r
-library(ccr)
+library(claudecoder)
 
 create_ccr_repo(
   name                = "my_analysis",

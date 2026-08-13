@@ -16,8 +16,8 @@ anonymize_dir(
 
 \item{anonym_dir}{Directory to write the anonymised CSV files to.}
 
-\item{method}{Either "shuffle" (permute values per column) or "replace"
-(type-matched random values).}
+\item{method}{Either "shuffle" (permute values per column) or
+"replace" (type-matched random values).}
 
 \item{max_rows}{Maximum number of rows to keep per file.}
 }
@@ -26,6 +26,7 @@ Invisibly, the paths of the written files.
 }
 \description{
 Reads every CSV file from \code{real_dir}, anonymises it with the chosen
-\code{method}, caps it at \code{max_rows} rows (20 by default) and writes
-the result to \code{anonym_dir}.
+\code{method}, caps it at \code{max_rows} rows (20 by default) and writes the
+result to \code{anonym_dir}. Intended to turn \verb{real_data/} files into safe
+samples in \verb{anonym_data/}.
 }

@@ -15,5 +15,5 @@ A data frame with the same structure and randomised content.
 \description{
 Each column is replaced by random values that match its data type (a
 numeric column gets numeric values, a character column gets character
-values, and so on).
+values, and so on) via \code{\link[=replace_one_column]{replace_one_column()}}.
 }

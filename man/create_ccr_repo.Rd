@@ -17,8 +17,8 @@ create_ccr_repo(
 
 \item{directory}{Parent directory in which to create the project.}
 
-\item{template}{CLAUDE.md template to use. See \code{\link{list_templates}}
-for the available templates (e.g. "normal", "dashboard", "package").}
+\item{template}{CLAUDE.md template to use. See \code{\link[=list_templates]{list_templates()}} for
+the available templates (e.g. "normal", "dashboard", "package").}
 
 \item{github_organisation}{Optional GitHub organisation to create the
 repository under; defaults to the authenticated user's account.}
@@ -29,9 +29,9 @@ repository under; defaults to the authenticated user's account.}
 Invisibly, the path to the created project.
 }
 \description{
-Scaffolds an R project with \code{R/}, \code{anonym_data/} and
-\code{real_data/} directories, drops in the CLAUDE.md files for the chosen
-\code{template}, writes an R-style \code{.gitignore} (ignoring the
-\code{.Rproj} file and \code{real_data/}), initialises git, commits
-everything and creates and pushes a GitHub repository.
+Scaffolds an R project with \verb{R/}, \verb{anonym_data/} and \verb{real_data/}
+directories, drops in the CLAUDE.md files for the chosen \code{template},
+writes an R-style \code{.gitignore} (ignoring the \code{.Rproj} file and
+\verb{real_data/}), initialises git, commits everything and creates and
+pushes a GitHub repository.
 }

@@ -10,8 +10,8 @@ list_templates()
 A character vector of template names.
 }
 \description{
-Returns the names of the template directories shipped with ccr. Users can
-add their own by creating a new sub-directory (with \code{CLAUDE.md},
+Returns the names of the template directories shipped with ccr. Users
+can add their own by creating a new sub-directory (with \code{CLAUDE.md},
 \code{R/CLAUDE.md} and \code{anonym_data/CLAUDE.md}) in the package's
 \code{inst/templates} folder.
 }
