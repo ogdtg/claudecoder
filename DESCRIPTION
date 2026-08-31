@@ -1,0 +1,23 @@
+Package: claudecoder
+Title: Claude Code R - Set Up Repositories for Claude Code Web
+Version: 0.1.0
+Authors@R:
+    person("Felix", "Lorenz", email = "felixlorenz18@gmail.com",
+           role = c("aut", "cre"))
+Description: A lightweight helper that scaffolds a new R project ready for use
+    with Claude Code Web. It creates a project skeleton with dedicated
+    directories for anonymised and real data, drops in template CLAUDE.md
+    files, initialises git and pushes the repository to GitHub. It also
+    ships helpers to anonymise real datasets (row shuffling and type aware
+    column replacement) into a shareable form.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Imports:
+    usethis,
+    stats,
+    utils
+Suggests:
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
